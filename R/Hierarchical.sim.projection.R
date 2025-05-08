@@ -1,6 +1,6 @@
 "Hierarchical.sim.projection" <-
 function(X, c = 2, nprojections=100, dim=2, pmethod="RS", 
-                                        scale=TRUE, seed=100, s=sFM, distance="euclidean", hmethod="ward") {
+                                        scale=TRUE, seed=100, s=sFM, distance="euclidean", hmethod="ward.D") {
 
  n <- ncol(X);
  sim.vector <- numeric(nprojections);

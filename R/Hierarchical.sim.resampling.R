@@ -1,5 +1,5 @@
 "Hierarchical.sim.resampling" <-
-function(X, c = 2, nsub=100, f = 0.8, s = sFM, distance="euclidean", hmethod="ward") {
+function(X, c = 2, nsub=100, f = 0.8, s = sFM, distance="euclidean", hmethod="ward.D") {
 
  n <- ncol(X);
  n.sub.ex <- ceiling(n * f);

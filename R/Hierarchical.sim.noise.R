@@ -1,5 +1,5 @@
 "Hierarchical.sim.noise" <-
-function(X, c = 2, nnoisy=100, perc=0.5, s = sFM, distance="euclidean", hmethod="ward") {
+function(X, c = 2, nnoisy=100, perc=0.5, s = sFM, distance="euclidean", hmethod="ward.D") {
 
  n <- ncol(X);
  sim.vector <- numeric(nnoisy);

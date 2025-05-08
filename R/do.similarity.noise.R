@@ -1,6 +1,6 @@
 "do.similarity.noise" <-
 function(X, c=2, nnoisy=100, perc=0.5, seed=100, s=sFM, 
-                                    alg.clust.sim=Hierarchical.sim.noise, distance="euclidean", hmethod="ward") {
+                                    alg.clust.sim=Hierarchical.sim.noise, distance="euclidean", hmethod="ward.D") {
  if (length(c) == 1)
    c <-2:c;
  num.clustering <- length(c);

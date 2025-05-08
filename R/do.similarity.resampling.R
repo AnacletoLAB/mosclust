@@ -1,6 +1,6 @@
 "do.similarity.resampling" <-
 function(X, c=2, nsub=100, f=0.8, s=sFM, alg.clust.sim=Hierarchical.sim.resampling, 
-                                     distance="euclidean", hmethod="ward") {
+                                     distance="euclidean", hmethod="ward.D") {
  if (length(c) == 1)
    c <-2:c;
  num.clustering <- length(c);

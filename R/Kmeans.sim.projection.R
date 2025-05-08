@@ -1,6 +1,6 @@
 "Kmeans.sim.projection" <-
 function(X, c = 2, nprojections=100, dim=2, pmethod="PMO", 
-                                        scale=TRUE, seed=100, s=sFM, distance="euclidean", hmethod="ward") {
+                                        scale=TRUE, seed=100, s=sFM, distance="euclidean", hmethod="ward.D") {
  n <- ncol(X);
  sim.vector <- numeric(nprojections);
  cl <- Multiple.Random.kmeans (X, dim=dim, pmethod=pmethod, c=c, n=nprojections*2, scale=scale, seed=seed);
