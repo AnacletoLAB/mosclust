@@ -8,7 +8,7 @@
 }
 \usage{
 Kmeans.sim.projection(X, c = 2, nprojections = 100, dim = 2, pmethod = "PMO", 
-  scale = TRUE, seed = 100, s = sFM, distance = "euclidean", hmethod = "ward")
+  scale = TRUE, seed = 100, s = sFM, distance = "euclidean", hmethod = "ward.D")
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{

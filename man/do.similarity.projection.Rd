@@ -12,7 +12,7 @@
 \usage{
 do.similarity.projection(X, c = 2, nprojections = 100, dim = 2, pmethod = "PMO", 
 scale = TRUE, seed = 100, s = sFM, alg.clust.sim = Hierarchical.sim.projection, 
-distance = "euclidean", hmethod = "ward")
+distance = "euclidean", hmethod = "ward.D")
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -42,7 +42,7 @@ distance = "euclidean", hmethod = "ward")
   \item{distance}{ it must be one of the two: "euclidean" (default) or "pearson" (that is 1 - Pearson correlation) }
   \item{hmethod}{  the agglomeration method to be used. This parameter is used only by the hierarchical clustering algorithm.
                     This should be one of the following:
-                    "ward", "single", "complete", "average", "mcquitty", "median" or "centroid", according of the hclust
+                    "ward.D", "single", "complete", "average", "mcquitty", "median" or "centroid", according of the hclust
                     method of the package stats. }
 }
 \value{
