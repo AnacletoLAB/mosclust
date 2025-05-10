@@ -10,7 +10,7 @@ function(X, c = 2, nnoisy=100, perc=0.5, s = sFM, distance="euclidean", hmethod=
 		  d <- dist (t(X1))
 	 else 
 			d <- as.dist(1 - cor(X1));
-	 r <- pam (d,c,cluster.only=TRUE);
+	 r <- cluster::pam (d,c,cluster.only=TRUE);
 	 cl1 <- Transform.vector.to.list(r);
 	 M1 <- Do.boolean.membership.matrix(cl1, n, 1:n);
 	 
@@ -19,7 +19,7 @@ function(X, c = 2, nnoisy=100, perc=0.5, s = sFM, distance="euclidean", hmethod=
 		  d <- dist (t(X2))
 	 else 
 			d <- as.dist(1 - cor(X2));
-	 r <- pam (d,c,cluster.only=TRUE);
+	 r <- cluster::pam (d,c,cluster.only=TRUE);
 	 cl2 <- Transform.vector.to.list(r);
 	 M2 <- Do.boolean.membership.matrix(cl2, n, 1:n);
 	
