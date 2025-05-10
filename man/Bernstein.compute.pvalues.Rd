@@ -54,7 +54,7 @@ A.Bertoni, G. Valentini, Discovering significant structures in clustered data th
 \code{\link{do.similarity.resampling}}, \code{\link{do.similarity.projection}}, \code{\link{do.similarity.noise}} }
 \examples{
 # Computation of the p-values according to Bernstein inequality using 
-# resampling techniques and a hierarcchical clustering algorithm
+# resampling techniques and a hierarchical clustering algorithm
 M <- generate.sample.h2 (n=20, l=10, Delta.h=4, Delta.v=2, sd=0.15);
 S.HC <- do.similarity.resampling (M, c=15, nsub=20, f=0.8, s=sFM, 
                            alg.clust.sim=Hierarchical.sim.resampling);

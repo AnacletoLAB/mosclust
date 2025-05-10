@@ -7,7 +7,8 @@ function(sim.matrix) {
 	means <- numeric(n.clusterings);
 	variance <- numeric(n.clusterings);
 	
-	means <- mean(as.data.frame(t(sim.matrix)));
+	#means <- mean(as.data.frame(t(sim.matrix)));
+	means <- colMeans(as.data.frame(t(sim.matrix)));
 	for (i in 1:n.clusterings)
 	  variance[i] <- stats::var(sim.matrix[i,]);
 	sorted.means <- sort(means, decreasing=TRUE);
