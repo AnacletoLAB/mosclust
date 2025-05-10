@@ -12,7 +12,7 @@ function(M, s0 = 0.9) {
 	  p.value = 1
 	else {
 	  chi.statistic <- sum((x-n*theta)^2)/(n*theta*(1-theta));
-    p.value <- 1 - pchisq(chi.statistic,K-1);
+    p.value <- 1 - stats::pchisq(chi.statistic,K-1);
 	}
 	return (p.value);
 }

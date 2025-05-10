@@ -11,9 +11,9 @@ function(X, c = 2, nsub=100, f = 0.8, s = sFM, distance="euclidean", hmethod=NUL
 	 colnames(Xsub1)<-sub1;
 	 
 	 if (distance == "euclidean")
-		  d <- dist (t(Xsub1))
+		  d <- stats::dist (t(Xsub1))
 	 else 
-			d <- as.dist(1 - cor(Xsub1));
+			d <- stats::as.dist(1 - stats::cor(Xsub1));
 	 r <- cluster::fanny(d, c, maxit = 1000);		
 	 cl1 <- Transform.vector.to.list(r$clustering);
 	 M1 <- Do.boolean.membership.matrix(cl1, n.sub.ex, sub1);
@@ -23,9 +23,9 @@ function(X, c = 2, nsub=100, f = 0.8, s = sFM, distance="euclidean", hmethod=NUL
 	 colnames(Xsub2)<-sub2;
 	 
 	 if (distance == "euclidean")
-		  d <- dist (t(Xsub2))
+		  d <- stats::dist(t(Xsub2))
 	 else 
-			d <- as.dist(1 - cor(Xsub2));
+			d <- stats::as.dist(1 - stats::cor(Xsub2));
 	 r <- cluster::fanny(d, c, maxit = 1000);		
 	 cl2 <- Transform.vector.to.list(r$clustering);
 	 M2 <- Do.boolean.membership.matrix(cl2, n.sub.ex, sub2);

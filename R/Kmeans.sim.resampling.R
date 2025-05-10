@@ -10,7 +10,7 @@ function(X, c = 2, nsub=100, f = 0.8, s = sFM, distance="euclidean", hmethod=NUL
    Xsub1 <- X[,sub1];
 	 colnames(Xsub1)<-sub1;
 	 
-	 r<-kmeans(t(Xsub1), centers=c, iter.max = 1000);
+	 r <- stats::kmeans(t(Xsub1), centers=c, iter.max = 1000);
 	 cl1 <- Transform.vector.to.list(r$cluster);
 	 M1 <- Do.boolean.membership.matrix(cl1, n.sub.ex, sub1);
 	 
@@ -18,7 +18,7 @@ function(X, c = 2, nsub=100, f = 0.8, s = sFM, distance="euclidean", hmethod=NUL
    Xsub2 <- X[,sub2];
 	 colnames(Xsub2)<-sub2;
 	 
-	 r<-kmeans(t(Xsub2), centers=c, iter.max = 1000);
+	 r <- stats::kmeans(t(Xsub2), centers=c, iter.max = 1000);
 	 cl2 <- Transform.vector.to.list(r$cluster);
 	 M2 <- Do.boolean.membership.matrix(cl2, n.sub.ex, sub2);
 	

@@ -9,7 +9,7 @@ function(sim.matrix, s0 = 0.9) {
 	
 	means <- mean(as.data.frame(t(sim.matrix)));
 	for (i in 1:n.clusterings)
-	  variance[i] <- var(sim.matrix[i,]);
+	  variance[i] <- stats::var(sim.matrix[i,]);
 	sorted.means <- sort(means, decreasing=TRUE);
 	sorted.indices <- order(means, decreasing=TRUE);
 	means <- sorted.means;
