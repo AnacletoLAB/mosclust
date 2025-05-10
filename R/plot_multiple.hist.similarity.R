@@ -1,4 +1,4 @@
-"plot.multiple.hist.similarity" <-
+"plot_multiple.hist.similarity" <-
 function(S, n.col=3, labels=NULL, nbins=25) {
   num.samples <- ncol(S);
 	n.graph <- nrow(S);

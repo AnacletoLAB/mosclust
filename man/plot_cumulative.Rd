@@ -1,17 +1,17 @@
-\name{plot.cumulative}
-\alias{plot.cumulative}
-\alias{plot.cumulative.multiple}
+\name{plot_cumulative}
+\alias{plot_cumulative}
+\alias{plot_cumulative.multiple}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{ Function to plot the empirical cumulative distribution function of the similarity values }
 \description{
-  The function \code{plot.cumulative} plots the ecdf of the similarity values between pairs of clusterings for a specific number of clusters.
-  The function \code{plot.cumulative.multiple} plots the graphs of the empirical cumulative distributions corresponding to different number of clusters, 
+  The function \code{plot_cumulative} plots the ecdf of the similarity values between pairs of clusterings for a specific number of clusters.
+  The function \code{plot_cumulative.multiple} plots the graphs of the empirical cumulative distributions corresponding to different number of clusters, 
 	using different patterns and/or different colors for each graph. Up to 15  ecdf graphs can be plotted simultaneously.
 }
 \usage{
-plot.cumulative(F)
+plot_cumulative(F)
 
-plot.cumulative.multiple(list.F, labels = NULL, min.x = -1, colors = TRUE)
+plot_cumulative.multiple(list.F, labels = NULL, min.x = -1, colors = TRUE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -36,8 +36,8 @@ list.F <- compute.cumulative.multiple(Sr.kmeans.sample6);
 # values of the ecdf for 8 clusters 
 l <- cumulative.values(list.F[[7]])
 # plot of the ecdf for 8 clusters
-plot.cumulative(list.F[[7]])
+plot_cumulative(list.F[[7]])
 # plot of the empirical cumulative distributions from 2 to 10 clusters
-plot.cumulative.multiple(list.F)
+plot_cumulative.multiple(list.F)
 }
 \keyword{ cluster }

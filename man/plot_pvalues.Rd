@@ -1,5 +1,5 @@
-\name{plot.pvalues}
-\alias{plot.pvalues}
+\name{plot_pvalues}
+\alias{plot_pvalues}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{ Function to plot p-values for different tests of hypothesis }
 \description{
@@ -9,7 +9,7 @@ and in the y axis the corresponding p-value.
 In this way the results of different tests of hypothesis can be compared.
 }
 \usage{
-plot.pvalues(l,alpha=1e-02,legendy=0, leg_label=NULL, colors=TRUE)
+plot_pvalues(l,alpha=1e-02,legendy=0, leg_label=NULL, colors=TRUE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -26,7 +26,7 @@ plot.pvalues(l,alpha=1e-02,legendy=0, leg_label=NULL, colors=TRUE)
 	\item{colors}{if TRUE (def.) lines are printed with colors, otherwise using only different line pattern} 
 }
 \author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
-\seealso{  \code{\link{plot.cumulative.multiple}}}
+\seealso{  \code{\link{plot_cumulative.multiple}}}
 \examples{
 # Data set generation
 M <- generate.sample6 (n=20, m=10, dim=1000, d=3, s=0.2);
@@ -41,7 +41,7 @@ d.Bern <- Bernstein.compute.pvalues(Sr.kmeans.sample6)
 d.Bern.ind <- Bernstein.ind.compute.pvalues(Sr.kmeans.sample6)
 l <- list(d.chi, d.Bern, d.Bern.ind);
 # plot of the corresponding computed p-values
-plot.pvalues(l, alpha = 1e-05, legendy = 1e-12)
+plot_pvalues(l, alpha = 1e-05, legendy = 1e-12)
 }
 \keyword{ cluster }
 \keyword{ htest }

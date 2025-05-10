@@ -1,4 +1,4 @@
-"plot.cumulative.multiple" <-
+"plot_cumulative.multiple" <-
 function(list.F, labels=NULL, min.x=-1, colors=TRUE) {
   MAX_INTEGRALS=15; 
   minimum=1;

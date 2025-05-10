@@ -1,4 +1,4 @@
-"plot.pvalues" <-
+"plot_pvalues" <-
 function(l,alpha=1e-02,legendy=0, leg_label=NULL, colors=TRUE) { 
   n.test <- length(l);
 	xlab <- l[[1]]$ordered.clusterings;

@@ -28,7 +28,7 @@ which the cumulative distribution needs to be computed; the "y" element stores a
 values of the cumulative distribution (i.e. y = F(x)).
 }
 \author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
-\seealso{  \code{\link{plot.cumulative.multiple}}}
+\seealso{  \code{\link{plot_cumulative.multiple}}}
 \examples{
 # Data set generation
 M <- generate.sample6 (n=20, m=10, dim=1000, d=3, s=0.2);

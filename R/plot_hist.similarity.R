@@ -1,4 +1,4 @@
-"plot.hist.similarity" <-
+"plot_hist.similarity" <-
 function(sim, nbins=25) {
   num.samples <- length(sim);
 	minimum <- min(sim);
