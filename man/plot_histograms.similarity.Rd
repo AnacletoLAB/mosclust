@@ -39,6 +39,7 @@ postscript(file="histograms.eps", horizontal=FALSE, onefile = FALSE);
 oldpar <- par(cex=4.0, mex=1);
 plot_multiple.hist.similarity (Sr.kmeans.sample6, n.col=3, labels=NULL, nbins=25);
 dev.off();
+unlink("histograms.eps");
 # plot of a single histogram
 plot_hist.similarity(Sr.kmeans.sample6[2,], nbins = 25)
 }
