@@ -23,7 +23,7 @@ function(list.F, labels=NULL, min.x=-1, colors=TRUE) {
 	  lab <- paste("k=",labels,sep="");
 	# making line patterns (up  to 15)	
 	lpat <- c("81","44", "13", "1343", "73", "2262", "4424", "3113", "2626", "6622", "1242", "6222", "2424", "8828", "6246");
-  plot(list.F[1],xlim=c(minimum,1), ylim=c(0,1), xlab="similarities", ylab="cumulative distribution", main="", type="n");
+  plot(list.F[[1]],xlim=c(minimum,1), ylim=c(0,1), xlab="similarities", ylab="cumulative distribution", main="");
 	if (colors == TRUE) {
 	  for (i in 1:num.F) {
 	    graphics::lines(list.F[[i]],lty=lpat[i], do.points=FALSE, verticals=TRUE, col.hor=i, col.vert=i); 
