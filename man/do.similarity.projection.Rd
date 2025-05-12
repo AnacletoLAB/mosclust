@@ -57,6 +57,7 @@ distance = "euclidean", hmethod = "ward.D")
 \author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{ \code{\link{do.similarity.resampling}}, \code{\link{do.similarity.noise}} }
 \examples{
+library("clusterv")
 # Data set generation
 M <- generate.sample6 (n=20, m=10, dim=600, d=3, s=0.2);
 # computing similarity indices with the fuzzy c-mean algorithm

@@ -22,6 +22,7 @@ Hypothesis.testing(d, alpha = 0.01)
 \author{ Giorgio Valentini \email{valentini@dsi.unimi.it}}
 \seealso{ \code{\link{Bernstein.compute.pvalues}} \code{\link{Chi.square.compute.pvalues}}}
 \examples{
+library("clusterv")
 # Synthetic data set generation
 M <- generate.sample6 (n=20, m=10, dim=1000, d=3, s=0.2)
 nsubsamples <- 10;  # number of pairs od clusterings to be evaluated

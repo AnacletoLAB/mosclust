@@ -22,6 +22,8 @@ Do.boolean.membership.matrix(cl, dim.M, examplelabels)
 }
 \author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \examples{
+library("clusterv")
+library("stats")
 # Synthetic data set generation (3 clusters with 20 examples for each cluster)
 M <- generate.sample3(n=20, m=2)
 # k-means clustering with 3 clusters

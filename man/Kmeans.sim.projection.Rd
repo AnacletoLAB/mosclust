@@ -37,6 +37,7 @@ Kmeans.sim.projection(X, c = 2, nprojections = 100, dim = 2, pmethod = "PMO",
 \author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{ \code{\link{Kmeans.sim.resampling}}, \code{\link{Kmeans.sim.noise}} }
 \examples{
+library("clusterv")
 # Synthetic data set generation
 M <- generate.sample6 (n=20, m=10, dim=600, d=3, s=0.2);
 # computing a vector of similarity indices with 2 clusters:

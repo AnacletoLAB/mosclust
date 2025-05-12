@@ -43,6 +43,7 @@ Tuusula, Finland, 17-18 June,  2006
 
 \code{\link{do.similarity.resampling}}, \code{\link{do.similarity.projection}}, \code{\link{do.similarity.noise}}}
 \examples{
+library("clusterv")
 # Synthetic data set generation
 M <- generate.sample6 (n=10, m=15, dim=800, d=3, s=0.2)
 nsubsamples <- 10;  # number of pairs od clusterings to be evaluated

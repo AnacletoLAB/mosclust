@@ -29,6 +29,7 @@ Tuusula, Finland, 17-18 June,  2006
 \author{ Giorgio Valentini \email{valentini@dsi.unimi.it}}
 \seealso{ \code{\link{Chi.square.compute.pvalues}}}
 \examples{
+library("clusterv")
 # Synthetic data set generation
 M <- generate.sample6 (n=10, m=15, dim=800, d=3, s=0.2)
 # computing the similarity matrix using random projections and hierarchcial clustering

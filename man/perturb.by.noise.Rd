@@ -25,6 +25,7 @@ perturb.by.noise(X, perc = 0.5)
 \author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{ \code{\link{do.similarity.noise}}}
 \examples{
+library("clusterv")
 # Data set generation
 M <- generate.sample6 (n=20, m=10, dim=100, d=3, s=0.2);
 # generation of a data set perturbed by noise

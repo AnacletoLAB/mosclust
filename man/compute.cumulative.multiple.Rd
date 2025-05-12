@@ -30,6 +30,7 @@ values of the cumulative distribution (i.e. y = F(x)).
 \author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{  \code{\link{plot_cumulative.multiple}}}
 \examples{
+library("clusterv")
 # Data set generation
 M <- generate.sample6 (n=20, m=10, dim=1000, d=3, s=0.2);
 # generation of multiple similarity measures by resampling

@@ -60,6 +60,7 @@ A.Bertoni, G. Valentini, Discovering significant structures in clustered data th
 
 \code{\link{do.similarity.projection}}, \code{\link{do.similarity.noise}}}
 \examples{
+library("clusterv")
 # Generation of a synthetic data set with a three-levels hierarchical structure
 M1 <- generate.sample.h2 (n=20, l=20, Delta.h=6, Delta.v=3, sd=0.1)
 # building a similarity matrix using resampling methods, considering clusterings 

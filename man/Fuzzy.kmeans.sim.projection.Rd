@@ -37,6 +37,7 @@ scale = TRUE, seed = 100, s = sFM, distance = "euclidean", hmethod = NULL)
 \author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{ \code{\link{Fuzzy.kmeans.sim.resampling}}, \code{\link{Fuzzy.kmeans.sim.noise}} }
 \examples{
+library("clusterv")
 # Synthetic data set generation
 M <- generate.sample6 (n=20, m=10, dim=600, d=3, s=0.2);
 # computing a vector of similarity indices with 2 clusters:

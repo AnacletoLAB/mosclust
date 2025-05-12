@@ -32,6 +32,7 @@ A.Bertoni, G. Valentini, Discovering significant structures in clustered data th
              CISI '06, Conferenza Italiana Sistemi Intelligenti, Ancona, Italia, 2006. }
 \author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \examples{
+library("clusterv")
 # Data set generation
 M <- generate.sample6 (n=20, m=10, dim=1000, d=3, s=0.2);
 # generation of multiple similarity measures by resampling
