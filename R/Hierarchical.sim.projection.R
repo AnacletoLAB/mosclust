@@ -4,7 +4,7 @@ function(X, c = 2, nprojections=100, dim=2, pmethod="RS",
 
  n <- ncol(X);
  sim.vector <- numeric(nprojections);
- cl <- Multiple.Random.hclustering (X, dim=dim, pmethod=pmethod, c=c, hmethod=hmethod, n=nprojections*2, scale=scale, 
+ cl <- clusterv::Multiple.Random.hclustering (X, dim=dim, pmethod=pmethod, c=c, hmethod=hmethod, n=nprojections*2, scale=scale, 
                                     distance=distance, seed=seed);
  for (i in 1:nprojections)  {   
 	 cl1 <- cl[[i]];

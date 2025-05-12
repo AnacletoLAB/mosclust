@@ -3,7 +3,7 @@ function(X, c = 2, nprojections=100, dim=2, pmethod="PMO",
                                         scale=TRUE, seed=100, s=sFM, distance="euclidean", hmethod="ward.D") {
  n <- ncol(X);
  sim.vector <- numeric(nprojections);
- cl <- Multiple.Random.kmeans (X, dim=dim, pmethod=pmethod, c=c, n=nprojections*2, scale=scale, seed=seed);
+ cl <- clusterv::Multiple.Random.kmeans (X, dim=dim, pmethod=pmethod, c=c, n=nprojections*2, scale=scale, seed=seed);
  for (i in 1:nprojections)  {   
 	 cl1 <- cl[[i]];
 	 M1 <- Do.boolean.membership.matrix(cl1, n, 1:n);

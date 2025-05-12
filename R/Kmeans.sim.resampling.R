@@ -11,7 +11,7 @@ function(X, c = 2, nsub=100, f = 0.8, s = sFM, distance="euclidean", hmethod=NUL
 	 colnames(Xsub1)<-sub1;
 	 
 	 r <- stats::kmeans(t(Xsub1), centers=c, iter.max = 1000);
-	 cl1 <- Transform.vector.to.list(r$cluster);
+	 cl1 <- clusterv::Transform.vector.to.list(r$cluster);
 	 M1 <- Do.boolean.membership.matrix(cl1, n.sub.ex, sub1);
 	 
 	 sub2 <- sample(n, n.sub.ex);
@@ -19,7 +19,7 @@ function(X, c = 2, nsub=100, f = 0.8, s = sFM, distance="euclidean", hmethod=NUL
 	 colnames(Xsub2)<-sub2;
 	 
 	 r <- stats::kmeans(t(Xsub2), centers=c, iter.max = 1000);
-	 cl2 <- Transform.vector.to.list(r$cluster);
+	 cl2 <- clusterv::Transform.vector.to.list(r$cluster);
 	 M2 <- Do.boolean.membership.matrix(cl2, n.sub.ex, sub2);
 	
 	 # examples common two the two subsamples

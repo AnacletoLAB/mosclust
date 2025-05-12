@@ -6,8 +6,7 @@ Authors@R: c(
     person("Giorgio", "Valentini", email = "valentini@di.unimi.it", role = "aut"),
     person("Jessica", "Gliozzo", email = "jessica.gliozzo@unimi.it", role = "cre"))
 Maintainer: Jessica Gliozzo <jessica.gliozzo@unimi.it>
-Depends: cluster, clusterv
-Import: stats, MASS, graphics
+Imports: stats, graphics, cluster, clusterv
 Description: Stability based methods for model order selection in clustering problems. 
 	Using multiple perturbations of the data the stability of clustering solutions is assessed. Different
 	perturbations may be used: resampling techniques, random projections and noise injection. Stability measures
