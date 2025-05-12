@@ -6,7 +6,8 @@ function(X, perc = 0.5) {
   n.var <- nrow(X);
 	n.samples <- ncol(X);
 	
-	sdev <- sort(stats::sd(t(X)));
+	#sdev <- sort(stats::sd(t(X)));
+	sdev <- apply(X, 1, stats::sd);
 	noise.sd <- sdev[ceiling(n.var*perc)];
 	
 	X.noisy <- matrix(stats::rnorm(n.var*n.samples, sd=noise.sd), nrow=n.var);
