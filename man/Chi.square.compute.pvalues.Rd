@@ -38,7 +38,7 @@ A.Bertoni, G. Valentini, Model order selection for clustered bio-molecular data,
 In: Probabilistic Modeling and Machine Learning in Structural and Systems Biology, J. Rousu, S. Kaski and E. Ukkonen (Eds.), 
 Tuusula, Finland, 17-18 June,  2006
 }
-\author{ Giorgio Valentini \email{valentini@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{ \code{\link{Bernstein.compute.pvalues}}, \code{\link{Hypothesis.testing}},
 
 \code{\link{do.similarity.resampling}}, \code{\link{do.similarity.projection}}, \code{\link{do.similarity.noise}}}

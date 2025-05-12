@@ -19,7 +19,7 @@ Hypothesis.testing(d, alpha = 0.01)
  a data frame corresponding to the clusterings significant at alpha level
 }
 
-\author{ Giorgio Valentini \email{valentini@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{ \code{\link{Bernstein.compute.pvalues}} \code{\link{Chi.square.compute.pvalues}}}
 \examples{
 library("clusterv")

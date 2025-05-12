@@ -53,7 +53,7 @@ Tuusula, Finland, 17-18 June,  2006
 A.Bertoni, G. Valentini, Discovering significant structures in clustered data through Bernstein inequality, 
              CISI '06, Conferenza Italiana Sistemi Intelligenti, Ancona, Italia, 2006.
 }
-\author{ Giorgio Valentini \email{valentini@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{ \code{\link{Bernstein.compute.pvalues}}, \code{\link{Chi.square.compute.pvalues}}, 
 
 \code{\link{Hypothesis.testing}}, \code{\link{do.similarity.resampling}}, 
