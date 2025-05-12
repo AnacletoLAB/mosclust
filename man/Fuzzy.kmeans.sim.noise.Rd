@@ -31,6 +31,7 @@ Fuzzy.kmeans.sim.noise(X, c = 2, nnoisy = 100, perc = 0.5, s = sFM,
 \author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{ \code{\link{Fuzzy.kmeans.sim.projection}}, \code{\link{Fuzzy.kmeans.sim.resampling}}, \code{\link{perturb.by.noise}} }
 \examples{
+\donttest{
 library("clusterv")
 # Synthetic data set generation
 M <- generate.sample6 (n=20, m=10, dim=600, d=3, s=0.2);
@@ -42,5 +43,6 @@ v3 <- Fuzzy.kmeans.sim.noise(M, c = 3, nnoisy = 20,  s = sFM)
 v2J <- Fuzzy.kmeans.sim.noise(M, c = 2, nnoisy = 20,  s = sJaccard)
 # 2 clusters using 0.95 percentile (more noise)
 v095 <- Fuzzy.kmeans.sim.noise(M, c = 2, nnoisy = 20,  s = sFM, perc=0.95)
+}
 }
 \keyword{ cluster }

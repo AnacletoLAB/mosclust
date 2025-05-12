@@ -54,6 +54,7 @@ alg.clust.sim = Hierarchical.sim.noise, distance = "euclidean", hmethod = "ward.
 \author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{ \code{\link{do.similarity.projection}}, \code{\link{do.similarity.resampling}} }
 \examples{
+\donttest{
 library("clusterv")
 # Data set generation
 M <- generate.sample6 (n=20, m=10, dim=600, d=3, s=0.2);
@@ -66,5 +67,6 @@ Sn.Fuzzy.kmeans.sample6 <- do.similarity.noise(M, c=8, nnoisy=30, perc=0.5, s=sF
 # computing similarity indices using the hierarchical clustering algorithm
 Sn.HC.sample6 <- do.similarity.noise(M, c=8, nnoisy=30, perc=0.5, s=sFM, 
                                       alg.clust.sim=Hierarchical.sim.noise);
+}
 }
 \keyword{ cluster }

@@ -60,6 +60,7 @@ A.Bertoni, G. Valentini, Discovering significant structures in clustered data th
 
 \code{\link{do.similarity.projection}}, \code{\link{do.similarity.noise}}}
 \examples{
+\donttest{
 library("clusterv")
 # Generation of a synthetic data set with a three-levels hierarchical structure
 M1 <- generate.sample.h2 (n=20, l=20, Delta.h=6, Delta.v=3, sd=0.1)
@@ -71,6 +72,7 @@ S1.HC <- do.similarity.resampling (M1, c=15, nsub=20, f=0.8, s=sFM,
 l1.HC <- Hybrid.testing(S1.HC, alpha=0.01, s0=0.95)
 # 3 clusterings are selected, according to the hierarchical structure of the data:
 l1.HC$selected.res
+}
 }
 \keyword{ cluster }
 \keyword{ htest }

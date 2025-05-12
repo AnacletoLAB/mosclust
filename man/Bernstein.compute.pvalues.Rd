@@ -53,6 +53,7 @@ A.Bertoni, G. Valentini, Discovering significant structures in clustered data th
 
 \code{\link{do.similarity.resampling}}, \code{\link{do.similarity.projection}}, \code{\link{do.similarity.noise}} }
 \examples{
+\donttest{
 library("clusterv")
 # Computation of the p-values according to Bernstein inequality using 
 # resampling techniques and a hierarchical clustering algorithm
@@ -63,6 +64,7 @@ S.HC <- do.similarity.resampling (M, c=15, nsub=20, f=0.8, s=sFM,
 Bernstein.compute.pvalues(S.HC)
 # Bernstein test with  assumption of independence
 Bernstein.ind.compute.pvalues(S.HC)
+}
 }
 \keyword{ cluster }
 \keyword{ htest }
