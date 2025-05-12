@@ -34,7 +34,7 @@ Kmeans.sim.projection(X, c = 2, nprojections = 100, dim = 2, pmethod = "PMO",
 \value{
   vector of the computed similarity measures (length equal to nprojections)
 }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{ \code{\link{Kmeans.sim.resampling}}, \code{\link{Kmeans.sim.noise}} }
 \examples{
 # Synthetic data set generation

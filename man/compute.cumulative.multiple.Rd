@@ -27,7 +27,7 @@ Function  \code{cumulative.values}:	 a list with two elements: the "x" element s
 which the cumulative distribution needs to be computed; the "y" element stores a vector with the corresponding
 values of the cumulative distribution (i.e. y = F(x)).
 }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{  \code{\link{plot_cumulative.multiple}}}
 \examples{
 # Data set generation

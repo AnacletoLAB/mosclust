@@ -54,7 +54,7 @@ distance = "euclidean", hmethod = "ward.D")
 \references{ 
  A.Bertoni, G. Valentini, Randomized maps for assessing the reliability of patients clusters in DNA microarray data analyses, 
  Artificial Intelligence in Medicine 37(2):85-109  2006}
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{ \code{\link{do.similarity.resampling}}, \code{\link{do.similarity.noise}} }
 \examples{
 # Data set generation

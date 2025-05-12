@@ -48,7 +48,7 @@ W. Hoeffding, Probability inequalities for sums of independent random variables,
 A.Bertoni, G. Valentini, Discovering significant structures in clustered data through Bernstein inequality, 
              CISI '06, Conferenza Italiana Sistemi Intelligenti, Ancona, Italia, 2006.
 }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{  \code{\link{Chi.square.compute.pvalues}}, \code{\link{Hypothesis.testing}},
 
 \code{\link{do.similarity.resampling}}, \code{\link{do.similarity.projection}}, \code{\link{do.similarity.noise}} }

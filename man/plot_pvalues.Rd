@@ -25,7 +25,7 @@ plot_pvalues(l,alpha=1e-02,legendy=0, leg_label=NULL, colors=TRUE)
                    Otherwise it is a vector of characters specifying the text to be printed}
 	\item{colors}{if TRUE (def.) lines are printed with colors, otherwise using only different line pattern} 
 }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{  \code{\link{plot_cumulative.multiple}}}
 \examples{
 # Data set generation

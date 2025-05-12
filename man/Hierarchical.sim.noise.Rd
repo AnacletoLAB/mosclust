@@ -31,7 +31,7 @@ Hierarchical.sim.noise(X, c = 2, nnoisy = 100, perc = 0.5, s = sFM,
 \value{
  vector of the computed similarity measures (length equal to nnoisy)
 }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{ \code{\link{Hierarchical.sim.projection}}, \code{\link{Hierarchical.sim.resampling}}, \code{\link{perturb.by.noise}} }
 \examples{
 # Synthetic data set generation

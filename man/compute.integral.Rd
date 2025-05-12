@@ -30,7 +30,7 @@ equal to  the number of subsamples considered for each number of clusters. }
 \references{ 
 A.Bertoni, G. Valentini, Discovering significant structures in clustered data through Bernstein inequality, 
              CISI '06, Conferenza Italiana Sistemi Intelligenti, Ancona, Italia, 2006. }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \examples{
 # Data set generation
 M <- generate.sample6 (n=20, m=10, dim=1000, d=3, s=0.2);

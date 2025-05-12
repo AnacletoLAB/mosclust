@@ -29,7 +29,7 @@ sM(M1, M2)
 \references{ 
 Ben-Hur, A. Ellisseeff, A. and Guyon, I., A stability based method for discovering structure in clustered data,
    In: "Pacific Symposium on Biocomputing", Altman, R.B. et al (eds.), pp, 6-17, 2002.}
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{ \code{\link{Do.boolean.membership.matrix}} }
 \examples{
 # Synthetic data set generation (3 clusters with 20 examples for each cluster)

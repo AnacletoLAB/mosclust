@@ -38,7 +38,7 @@ scale = TRUE, seed = 100, s = sFM, distance = "euclidean", hmethod = "ward.D")
 \value{
   vector of the computed similarity measures (length equal to nprojections)
 }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{ \code{\link{Hierarchical.sim.resampling}}, \code{\link{Hierarchical.sim.noise}} }
 \examples{
 # Synthetic data set generation

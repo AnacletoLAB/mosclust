@@ -22,14 +22,14 @@ perturb.by.noise(X, perc = 0.5)
  McShane, L.M., Radmacher, D., Freidlin, B., Yu, R.,  Li, M.C. and Simon, R.,
     Method for assessing reproducibility of clustering patterns observed in analyses of microarray data,
     Bioinformatics, 11(8), pp. 1462-1469, 2002.}
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{ \code{\link{do.similarity.noise}}}
 \examples{
 # Data set generation
 M <- generate.sample6 (n=20, m=10, dim=100, d=3, s=0.2);
-# genearation of a data set perturbed by noise
+# generation of a data set perturbed by noise
 M.perturbed <- perturb.by.noise(M);
-# genearation of a data set more perturbed by noise
+# generation of a data set more perturbed by noise
 M.more.perturbed <- perturb.by.noise(M, perc=0.95);
 }
 \keyword{ cluster }

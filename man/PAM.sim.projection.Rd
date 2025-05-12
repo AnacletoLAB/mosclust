@@ -34,7 +34,7 @@ PAM.sim.projection(X, c = 2, nprojections = 100, dim = 2, pmethod = "PMO",
 \value{
   vector of the computed similarity measures (length equal to nprojections)
 }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{ \code{\link{PAM.sim.resampling}}, \code{\link{PAM.sim.noise}} }
 \examples{
 # Synthetic data set generation

@@ -23,7 +23,7 @@ is used.}
 from list.F }
   \item{colors}{ if TRUE (default) different colors are used to plot the different ECDF, otherwise black lines are used }
 }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{  \code{\link{compute.cumulative.multiple}}}
 \examples{
 # Data set generation

@@ -28,7 +28,7 @@ Fuzzy.kmeans.sim.resampling(X, c = 2, nsub = 100, f = 0.8, s = sFM,
 \value{
  vector of the computed similarity measures (length equal to nsub)
 }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{ \code{\link{Fuzzy.kmeans.sim.projection}}, \code{\link{Fuzzy.kmeans.sim.noise}} }
 \examples{
 # Synthetic data set generation

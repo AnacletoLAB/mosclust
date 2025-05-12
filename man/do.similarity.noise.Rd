@@ -51,7 +51,7 @@ alg.clust.sim = Hierarchical.sim.noise, distance = "euclidean", hmethod = "ward.
     Method for assessing reproducibility of clustering patterns observed in analyses of microarray data,
     Bioinformatics, 11(8), pp. 1462-1469, 2002.
  }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{ \code{\link{do.similarity.projection}}, \code{\link{do.similarity.resampling}} }
 \examples{
 # Data set generation

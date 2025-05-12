@@ -52,7 +52,7 @@ The statistical tests implemented in the package have been designed with the the
 }
 
 \author{
-Giorgio Valentini <valenti@dsi.unimi.it>
+Giorgio Valentini <valentini@di.unimi.it>
 }
 \references{
 

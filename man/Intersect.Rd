@@ -17,7 +17,7 @@ Intersect(sub1, sub2)
 \value{
  vector that stores the elements common to the two input vectors
 }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \examples{
 # Intesection between two sets of elements represented by vectors
 s1 <- 1:10;

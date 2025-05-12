@@ -47,7 +47,7 @@ alg.clust.sim = Hierarchical.sim.resampling, distance = "euclidean", hmethod = "
  Ben-Hur, A. Ellisseeff, A. and Guyon, I., A stability based method for discovering structure in clustered data,
    In: "Pacific Symposium on Biocomputing", Altman, R.B. et al (eds.), pp, 6-17, 2002.
  }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{ \code{\link{do.similarity.projection}}, \code{\link{do.similarity.noise}} }
 \examples{
 # Data set generation

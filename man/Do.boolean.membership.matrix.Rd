@@ -20,7 +20,7 @@ Do.boolean.membership.matrix(cl, dim.M, examplelabels)
 \value{
  the pairwise boolean membership square matrix.
 }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \examples{
 # Synthetic data set generation (3 clusters with 20 examples for each cluster)
 M <- generate.sample3(n=20, m=2)

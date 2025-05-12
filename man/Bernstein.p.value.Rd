@@ -22,7 +22,7 @@ Bernstein.p.value(n, Delta, v)
 \references{ 
 W. Hoeffding, Probability inequalities for sums of independent random variables, J. Amer. Statist. Assoc. vol.58 pp. 13-30, 1963.
 }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{  \code{\link{Bernstein.compute.pvalues}}, \code{\link{Bernstein.ind.compute.pvalues}}}
 \examples{
 # Computation of the upper bounds to the probability that the two means differ by chance

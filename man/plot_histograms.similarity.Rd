@@ -23,7 +23,7 @@ plot_multiple.hist.similarity(S, n.col = 3, labels = NULL, nbins = 25)
   \item{n.col}{ number of columns in the grid of the histograms (default = 3 }
   \item{labels}{ label of the histograms. If NULL (default) the number of clusters from 2 to nrow(S)+1 are used }
 }
-\author{ Giorgio Valentini \email{valenti@dsi.unimi.it}}
+\author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{ \code{\link{plot_cumulative}},  \code{\link{plot_cumulative.multiple}}}
 \examples{
 # Data set generation
