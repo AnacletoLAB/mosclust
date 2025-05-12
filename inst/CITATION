@@ -1,0 +1,15 @@
+ibentry(
+  key      = "valentini2007mosclust",
+  bibtype  = "Article",
+  title    = "Mosclust: a software library for discovering significant structures in bio-molecular data",
+  author   = "Valentini, Giorgio",
+  journal  = "Bioinformatics",
+  year     = "2007",
+  volume   = "23",
+  number   = "3",
+  month    = "2",
+  issn     = "1367-4811",
+  pages    = "387–389",
+  doi      = "10.1093/bioinformatics/btl600",
+  url      = "https://doi.org/10.1093/bioinformatics/btl600"
+)
