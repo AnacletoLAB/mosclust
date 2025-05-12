@@ -1,4 +1,4 @@
-ibentry(
+bibentry(
   key      = "valentini2007mosclust",
   bibtype  = "Article",
   title    = "Mosclust: a software library for discovering significant structures in bio-molecular data",

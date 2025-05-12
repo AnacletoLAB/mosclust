@@ -15,3 +15,4 @@ Description: Stability based methods for model order selection in clustering pro
 License: GPL (>= 2)
 URL: https://valentini.di.unimi.it/SW/mosclust/
 BugReports: https://github.com/AnacletoLAB/mosclust/issues
+Encoding: UTF-8
