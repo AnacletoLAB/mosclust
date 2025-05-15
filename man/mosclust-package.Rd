@@ -18,7 +18,7 @@ Package: \tab mosclust\cr
 Type: \tab Package\cr
 Version: \tab 1.0\cr
 Date: \tab 2006-09-08\cr
-License: \tab GPL \cr
+License: \tab GPL (>= 2) \cr
 }
 
 
@@ -48,7 +48,7 @@ Summarizing, this package may be used for:
 } 
 
 The statistical tests implemented in the package have been designed with the theoretical and methodological contribution of
-\emph{Alberto Bertoni} (DSI, Universit\`a degli Studi di Milano).
+\emph{Alberto Bertoni} (DSI, Università degli Studi di Milano).
 }
 
 \author{

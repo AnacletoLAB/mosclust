@@ -25,7 +25,7 @@ Hypothesis.testing(d, alpha = 0.01)
 library("clusterv")
 # Synthetic data set generation
 M <- generate.sample6 (n=20, m=10, dim=1000, d=3, s=0.2)
-nsubsamples <- 10;  # number of pairs od clusterings to be evaluated
+nsubsamples <- 10;  # number of pairs of clusterings to be evaluated
 max.num.clust <- 6; # maximum number of cluster to be evaluated
 fract.resampled <- 0.8; # fraction of samples to subsampled
 # building a similarity matrix using resampling methods, considering clusterings 

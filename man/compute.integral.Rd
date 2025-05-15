@@ -25,6 +25,7 @@ equal to  the number of subsamples considered for each number of clusters. }
 }
 \value{
  The function \code{compute.integral} returns the value of the estimate integral.
+ 
  The function \code{compute.integral.from.similarity} returns a vector of the values of the estimate integrals (one for each row of \eqn{sim.matrix}).
 }
 \references{ 

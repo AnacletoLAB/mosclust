@@ -13,8 +13,8 @@ Chi.square.compute.pvalues(sim.matrix, s0 = 0.9)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{sim.matrix}{ a matrix that stores the similarity between pairs of clustering across multiple number of clusters
-      and multiple clusterings. Rows correspond to the different clusterings; columns to the n repeated clusterings for each number of clusters
-       Row 1 correspond to a 2-clustering, row 2 to a 3-clustering, ... row m to a m+1 clustering. }
+      and multiple clusterings. Rows correspond to the different clusterings; columns to the n repeated clusterings for each number of clusters.
+       Row 1 corresponds to a 2-clustering, row 2 to a 3-clustering, ... row m to a m+1 clustering. }
   \item{s0}{ threshold for the similarity value (default 0.9) }
 }
 \details{
@@ -22,7 +22,7 @@ Chi.square.compute.pvalues(sim.matrix, s0 = 0.9)
 k-clusterings obtained from the perturbed data. The similarity matrix given as input can be obtained from the functions
 do.similarity.resampling, do.similarity.projection, do.similarity.noise. For each k-clustering the proportion
 of pairs of perturbed clusterings having similarity indices larger than a given threshold (the parameter \eqn{s0}) is computed.
-The p-values are obtained according the chi-square test between multiple proportions (each proportion corresponds to a different k-clustering) 
+The p-values are obtained according the chi-square test between multiple proportions (each proportion corresponds to a different k-clustering). 
 A low p-value means that there is a significant difference between the top sorted and the given k-clustering. 
 }
 \value{
@@ -46,7 +46,7 @@ Tuusula, Finland, 17-18 June,  2006
 library("clusterv")
 # Synthetic data set generation
 M <- generate.sample6 (n=10, m=15, dim=800, d=3, s=0.2)
-nsubsamples <- 10;  # number of pairs od clusterings to be evaluated
+nsubsamples <- 10;  # number of pairs of clusterings to be evaluated
 max.num.clust <- 6; # maximum number of cluster to be evaluated
 fract.resampled <- 0.8; # fraction of samples to subsampled
 # building a similarity matrix using resampling methods, considering clusterings 

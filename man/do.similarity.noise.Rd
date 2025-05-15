@@ -1,7 +1,7 @@
 \name{do.similarity.noise}
 \alias{do.similarity.noise}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{ Function that computes sets of similarity indices using using injection of gaussian noise.}
+\title{ Function that computes sets of similarity indices using injection of gaussian noise.}
 \description{
   This function may use different clustering algorithms and different similarity measures to compute similarity indices.
 Injection of gaussian noise  is applied to perturb the data. 
@@ -32,8 +32,8 @@ alg.clust.sim = Hierarchical.sim.noise, distance = "euclidean", hmethod = "ward.
 												 It may be one of the following: 
 												 - Hierarchical.sim.resampling (hierarchical clustering algorithm, default)
 												 - Kmeans.sim.resampling (c - mean algorithm)
-												 - PAM.sim.resampling (Prediction Around Medoid algorithm)}
-												 - Fuzzy.kmeans.sim.resampling (Fuzzy c-mean)
+												 - PAM.sim.resampling (Prediction Around Medoid algorithm)
+												 - Fuzzy.kmeans.sim.resampling (Fuzzy c-mean)}
   \item{distance}{ it must be one of the two: "euclidean" (default) or "pearson" (that is 1 - Pearson correlation) }
   \item{hmethod}{  the agglomeration method to be used. This parameter is used only by the hierarchical clustering algorithm.
                     This should be one of the following:
@@ -43,7 +43,7 @@ alg.clust.sim = Hierarchical.sim.noise, distance = "euclidean", hmethod = "ward.
 \value{
   a matrix that stores the similarity between pairs of clustering across multiple number of clusters
   and multiple clusterings performed on subsamples of the original data.
-  Number or rows equal to the length of c (number of clusters); number of columns      
+  Number of rows equal to the length of c (number of clusters); number of columns      
   equal to nsub, that is the number of subsamples considered for each number of clusters.
 }
 \references{ 

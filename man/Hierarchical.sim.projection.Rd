@@ -18,10 +18,10 @@ scale = TRUE, seed = 100, s = sFM, distance = "euclidean", hmethod = "ward.D")
   \item{nprojections}{ number of pairs of projected data }
   \item{dim}{ dimension of the projected data }
   \item{pmethod}{ projection method. It must be one of the following:  
-									RS" (random subspace projection)
-									PMO" (Plus Minus One random projection)
-									Norm" (normal random projection)
-									Achlioptas" (Achlioptas random projection)}
+									- "RS" (random subspace projection)
+									- "PMO" (Plus Minus One random projection)
+									- "Norm" (normal random projection)
+									- "Achlioptas" (Achlioptas random projection)}
   \item{scale}{ if TRUE randomized projections are scaled (default) }
   \item{seed}{ numerical seed for the random generator }
   \item{s}{ similarity function to be used. It may be one of the following: 

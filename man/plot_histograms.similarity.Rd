@@ -7,8 +7,7 @@
   These functions plot histograms of a set of similarity measures obtained through perturbation methods.
 	In particular \code{plot_hist.similarity} plots a single histogram referred to a specific number of clusters,
 	while \code{plot_multiple.hist.similarity} plots multiple histograms referred to different numbers of clusters
-	(one for each number of clusters, i.e. one for each row of
-  of the matrix \eqn{S} of similarity values).
+	(one for each number of clusters, i.e. one for each row of the matrix \eqn{S} of similarity values).
 }
 \usage{
 plot_hist.similarity(sim, nbins = 25)
@@ -20,7 +19,7 @@ plot_multiple.hist.similarity(S, n.col = 3, labels = NULL, nbins = 25)
   \item{sim}{ vector of similarity values }
   \item{nbins}{ number of the bins of the histogram }
 	\item{S}{ Matrix of similarity values, rows correspond to diferent number of clusters }
-  \item{n.col}{ number of columns in the grid of the histograms (default = 3 }
+  \item{n.col}{ number of columns in the grid of the histograms (default = 3) }
   \item{labels}{ label of the histograms. If NULL (default) the number of clusters from 2 to nrow(S)+1 are used }
 }
 \author{ Giorgio Valentini \email{valentini@di.unimi.it}}

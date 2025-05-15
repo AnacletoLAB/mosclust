@@ -16,8 +16,8 @@ Bernstein.ind.compute.pvalues(sim.matrix)
 \arguments{
   \item{sim.matrix}{ a matrix that stores the similarity between pairs of clustering across multiple number of clusters
 and multiple clusterings.
-Rows correspond to the different clusterings; columns to the n repeated clusterings for each number of clusters
-Row 1 corresond to a 2-clustering, row 2 to a 3-clustering, ... row m to a m+1 clustering. }
+Rows correspond to the different clusterings; columns to the n repeated clusterings for each number of clusters.
+Row 1 corresponds to a 2-clustering, row 2 to a 3-clustering, ... row m to a m+1 clustering. }
 }
 \details{
 The stability index for a given clustering is computed as the mean of the similarity indices between pairs of 
@@ -38,7 +38,7 @@ top sorted and the given clustering. Please, see the papers cited in the referen
   a list with 4 components:
   \item{ordered.clusterings }{a vector with the number of clusters ordered from the most significant to the least significant}
   \item{p.value }{a vector with the corresponding p-values computed according to Bernstein inequality and Bonferroni correction
-          in descending order (theri values correspond to the clusterings of the vector ordered.clusterings)}
+          in descending order (their values correspond to the clusterings of the vector ordered.clusterings)}
 	\item{means }{vector with the mean similarity for each clustering}
   \item{variance }{vector with the variance of the similarity for each clustering}
 }

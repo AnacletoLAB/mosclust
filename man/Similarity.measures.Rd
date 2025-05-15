@@ -5,7 +5,7 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{ Similarity measures between pairs of clusterings }
 \description{
-  Classical similarity measures between pairs of clusterings are implememted. These measures use the pairwise boolean membership matrix 
+  Classical similarity measures between pairs of clusterings are implemented. These measures use the pairwise boolean membership matrix 
 	(\code{\link{Do.boolean.membership.matrix}}) to compute the similarity between two clusterings, using the matrix as a vector and computing
 	the result as an internal product. It may be shown that the same result may be obtained using contingency matrices and the classical
 	definition of Fowlkes and Mallows (implemented with the function \code{sFM}), Jaccard (implemented with the function \code{sJaccard}) 
@@ -48,11 +48,11 @@ d <- dist (t(M));
 r2 <- pam (d,3,cluster.only=TRUE);
 cl2 <- Transform.vector.to.list(r2);
 BPAM <- Do.boolean.membership.matrix(cl2, 60, 1:60)
-# computation of the Fowlkes and Mallows index beween the k-means and the PAM clustering:
+# computation of the Fowlkes and Mallows index between the k-means and the PAM clustering:
 sFM(Bkmeans, BPAM)
-# computation of the Jaccard index beween the k-means and the PAM clustering:
+# computation of the Jaccard index between the k-means and the PAM clustering:
 sJaccard(Bkmeans, BPAM)
-# computation of the Matching coefficient beween the k-means and the PAM clustering:
+# computation of the Matching coefficient between the k-means and the PAM clustering:
 sM(Bkmeans, BPAM)
 }
 \keyword{ cluster }
