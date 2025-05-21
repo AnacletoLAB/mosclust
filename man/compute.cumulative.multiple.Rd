@@ -11,14 +11,14 @@ The function \code{cumulative.values} returns the values of the empirical cumula
 \usage{
 compute.cumulative.multiple(sim.matrix)
 
-cumulative.values(F)
+cumulative.values(Fun)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{sim.matrix}{ a matrix that stores the similarity between pairs of clustering across multiple number of clusters
 and multiple clusterings. Each row corresponds to a different number of clusters; number of columns
 equal to  the number of subsamples considered for each number of clusters. }
-\item{F}{ Function of class ecdf  that stores the discrete values of the cumulative distribution }
+\item{Fun}{ Function of class ecdf  that stores the discrete values of the cumulative distribution }
 }
 \value{
 Function  \code{compute.cumulative.multiple}: a list of function of class ecdf.

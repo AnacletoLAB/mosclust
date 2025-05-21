@@ -10,13 +10,13 @@
 	exploiting then empirical mean of the similarity values (see the paper cited in the reference section for details).
 }
 \usage{
-compute.integral(F, subdivisions = 1000)
+compute.integral(Fun, subdivisions = 1000)
 
 compute.integral.from.similarity(sim.matrix)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{F}{ Function of class ecdf  that stores the discrete values of the empirical cumulative distribution }
+  \item{Fun}{ Function of class ecdf that stores the discrete values of the empirical cumulative distribution }
   \item{subdivisions}{ maximum number of subintervals used by the integration process }
 	\item{sim.matrix}{ a matrix that stores the similarity between pairs of clustering across multiple number of clusters
 and multiple clusterings performed on subsamples of the original data.

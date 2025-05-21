@@ -9,15 +9,15 @@
 	using different patterns and/or different colors for each graph. Up to 15  ecdf graphs can be plotted simultaneously.
 }
 \usage{
-plot_cumulative(F)
+plot_cumulative(Fun)
 
 plot_cumulative.multiple(list.F, labels = NULL, min.x = -1, colors = TRUE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{F}{ Function of class ecdf  that stores the discrete values of the cumulative distribution }
+  \item{Fun}{ Function of class ecdf that stores the discrete values of the cumulative distribution }
 	\item{list.F}{ a list of function of class ecdf }
-  \item{labels}{ vector of the labels associated to the CDF. If  NULL (default), then a vector of labels from 2 to lenght(list.F)+1
+  \item{labels}{ vector of the labels associated to the CDF. If NULL (default), then a vector of labels from 2 to lenght(list.F)+1
 is used.}
   \item{min.x}{ minimum value to be plotted for similarities. If -1 (default) the minimum of the similarity value is obtained
 from list.F }
