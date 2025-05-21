@@ -1,6 +1,6 @@
 Package: mosclust
 Type: Package
-Version: 1.0
+Version: 1.0.1
 Title: Model Order Selection for Clustering
 Authors@R: c(
  person("Giorgio", "Valentini", email = "valentini@di.unimi.it", role = "aut"),
