@@ -39,7 +39,6 @@ Sr.kmeans.sample6 <- do.similarity.resampling(M, c=10, nsub=20, f=0.8, s=sFM,
 plot_multiple.hist.similarity (Sr.kmeans.sample6, n.col=3, labels=NULL, nbins=25);
 # the same as postrcript file
 postscript(file="histograms.eps", horizontal=FALSE, onefile = FALSE);
-oldpar <- par(cex=4.0, mex=1);
 plot_multiple.hist.similarity (Sr.kmeans.sample6, n.col=3, labels=NULL, nbins=25);
 dev.off();
 unlink("histograms.eps");
