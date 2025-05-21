@@ -6,8 +6,8 @@ function(X, c=2, nprojections=100, dim=2, pmethod="PMO", scale=TRUE, seed=100, s
  num.clustering <- length(c);
  for (i in c)
    if (i<2) {
-	   print("Number of clusters must be more than 2.");
-		 return(0);
+	   stop("Number of clusters must be more than 2.");
+		 #return(0);
 	 }
  sim.matrix <- matrix(numeric(num.clustering*nprojections), nrow=num.clustering);
  j <- 0;

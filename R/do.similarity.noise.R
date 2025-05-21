@@ -6,8 +6,8 @@ function(X, c=2, nnoisy=100, perc=0.5, seed=100, s=sFM,
  num.clustering <- length(c);
  for (i in c)
    if (i<2) {
-	   print("Number of clusters must be more than 2.");
-		 return(0);
+	   stop("Number of clusters must be more than 2.");
+		 #return(0);
 	 }
  set.seed(seed);
  sim.matrix <- matrix(numeric(num.clustering*nnoisy), nrow=num.clustering);
