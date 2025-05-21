@@ -22,6 +22,10 @@ plot_multiple.hist.similarity(S, n.col = 3, labels = NULL, nbins = 25)
   \item{n.col}{ number of columns in the grid of the histograms (default = 3) }
   \item{labels}{ label of the histograms. If NULL (default) the number of clusters from 2 to nrow(S)+1 are used }
 }
+\value{
+  No return value, the function is called for its side-effect of
+drawing a plot on the current graphics device.
+}
 \author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{ \code{\link{plot_cumulative}},  \code{\link{plot_cumulative.multiple}}}
 \examples{

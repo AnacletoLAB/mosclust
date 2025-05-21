@@ -23,6 +23,11 @@ is used.}
 from list.F }
   \item{colors}{ if TRUE (default) different colors are used to plot the different ECDF, otherwise black lines are used }
 }
+\value{
+  No return value, the function is called for its side-effect of
+drawing a plot on the current graphics device.
+}
+
 \author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{  \code{\link{compute.cumulative.multiple}}}
 \examples{
