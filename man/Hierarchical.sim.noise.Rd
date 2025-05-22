@@ -34,6 +34,7 @@ Hierarchical.sim.noise(X, c = 2, nnoisy = 100, perc = 0.5, s = sFM,
 \author{ Giorgio Valentini \email{valentini@di.unimi.it}}
 \seealso{ \code{\link{Hierarchical.sim.projection}}, \code{\link{Hierarchical.sim.resampling}}, \code{\link{perturb.by.noise}} }
 \examples{
+\donttest{
 library("clusterv")
 # Synthetic data set generation
 M <- generate.sample6 (n=20, m=10, dim=600, d=3, s=0.2);
@@ -47,5 +48,6 @@ v2J <- Hierarchical.sim.noise(M, c = 2, nnoisy = 20,  s = sJaccard)
 v2JP <- Hierarchical.sim.noise(M, c = 2, nnoisy = 20, s = sJaccard, distance="pearson")
 # 2 clusters using 0.95 percentile (more noise)
 v095 <- Hierarchical.sim.noise(M, c = 2, nnoisy = 20,  s = sFM, perc=0.95)
+}
 }
 \keyword{ cluster }
