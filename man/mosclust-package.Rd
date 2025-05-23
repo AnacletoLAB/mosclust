@@ -16,7 +16,7 @@ implements a set of functions to discover significant structures in bio-molecula
 \tabular{ll}{
 Package: \tab mosclust\cr
 Type: \tab Package\cr
-Version: \tab 1.0.1\cr
+Version: \tab 1.0.2\cr
 Date: \tab 2006-09-08\cr
 License: \tab GPL (>= 2) \cr
 }
